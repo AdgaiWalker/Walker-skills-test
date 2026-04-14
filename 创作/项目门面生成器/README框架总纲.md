@@ -2,6 +2,10 @@
 
 这份文档不是在教人立刻写某一份 README，而是在总结一套以后可以反复复用的框架。
 
+如果往更上层看，这套框架背后的指导问题意识可以继续参考：
+
+- [Ferry](https://github.com/AdgaiWalker/Ferry)
+
 适用对象：
 
 - 项目门面生成器这类 skill

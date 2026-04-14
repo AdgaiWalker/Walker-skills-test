@@ -1,0 +1,157 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">项目门面生成器视觉横幅</title>
+  <desc id="desc">以调查、定位、生成、评测、收尾为主线的项目门面生成器首屏横幅。</desc>
+  <defs>
+    <linearGradient id="bg" x1="76" y1="60" x2="1546" y2="892" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F3EC"/>
+      <stop offset="0.52" stop-color="#E7EEF6"/>
+      <stop offset="1" stop-color="#D8E7E2"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1115 218) rotate(122.584) scale(334.143 464.581)">
+      <stop stop-color="#3B82F6" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1388 722) rotate(-173.163) scale(435.624 306.75)">
+      <stop stop-color="#F59E0B" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" stroke="#0F172A" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#E2E8F0" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="docTop" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#E2E8F0" stop-opacity="0.76"/>
+    </linearGradient>
+    <filter id="shadow" x="-120" y="-120" width="1840" height="1140" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <filter id="soft" x="-80" y="-80" width="1760" height="1060" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="36" fill="url(#grid)"/>
+  <rect x="40" y="40" width="1520" height="820" rx="30" stroke="#FFFFFF" stroke-opacity="0.55"/>
+  <ellipse cx="1115" cy="218" rx="430" ry="290" fill="url(#glowA)"/>
+  <ellipse cx="1388" cy="722" rx="440" ry="252" fill="url(#glowB)"/>
+
+  <g opacity="0.96">
+    <rect x="96" y="84" width="130" height="42" rx="21" fill="#111827"/>
+    <text x="161" y="111" text-anchor="middle" fill="#F8FAFC" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="20" font-weight="700" letter-spacing="0.16em">SKILL</text>
+
+    <rect x="244" y="84" width="208" height="42" rx="21" fill="#2563EB"/>
+    <text x="348" y="111" text-anchor="middle" fill="#F8FAFC" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="20" font-weight="700" letter-spacing="0.1em">PROJECT FRONT</text>
+
+    <rect x="470" y="84" width="250" height="42" rx="21" fill="#F59E0B"/>
+    <text x="595" y="111" text-anchor="middle" fill="#111827" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="0.1em">REVIEW THEN AUTO</text>
+  </g>
+
+  <text x="96" y="254" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="102" font-weight="800" letter-spacing="-0.04em">项目门面生成器</text>
+  <text x="96" y="320" fill="#1E293B" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="30" font-weight="700">把 README、视觉门面与发布收尾</text>
+  <text x="96" y="360" fill="#1E293B" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="30" font-weight="700">接成一条可执行的工作链</text>
+  <text x="96" y="406" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="24" font-weight="500">先调查，再生成，再评测；通过后再继续自动推进。</text>
+
+  <g filter="url(#soft)">
+    <rect x="96" y="448" width="548" height="102" rx="28" fill="#FFFFFF" fill-opacity="0.68" stroke="url(#panelStroke)"/>
+    <text x="132" y="486" fill="#2563EB" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="18" font-weight="800" letter-spacing="0.12em">WHAT IT DOES</text>
+    <text x="132" y="520" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" font-weight="700">识别层级，重构首页，补齐遗漏，</text>
+    <text x="132" y="548" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" font-weight="700">通过后再决定是否继续自动推进。</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(1100 132) rotate(8 194 214)">
+      <rect x="0" y="0" width="388" height="428" rx="34" fill="#CBD5E1" fill-opacity="0.45"/>
+      <rect x="0" y="0" width="388" height="428" rx="34" stroke="#FFFFFF" stroke-opacity="0.34"/>
+    </g>
+    <g transform="translate(1052 156) rotate(3 210 230)">
+      <rect x="0" y="0" width="420" height="460" rx="36" fill="#E2E8F0" fill-opacity="0.62"/>
+      <rect x="0" y="0" width="420" height="460" rx="36" stroke="#FFFFFF" stroke-opacity="0.42"/>
+    </g>
+    <g transform="translate(1014 176)">
+      <rect x="0" y="0" width="438" height="426" rx="40" fill="url(#docTop)"/>
+      <rect x="0" y="0" width="438" height="426" rx="40" stroke="#FFFFFF" stroke-opacity="0.78"/>
+
+      <rect x="34" y="34" width="140" height="32" rx="16" fill="#111827"/>
+      <text x="104" y="55" text-anchor="middle" fill="#F8FAFC" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="15" font-weight="800" letter-spacing="0.16em">README CORE</text>
+
+      <text x="34" y="118" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="38" font-weight="800">项目从草稿页</text>
+      <text x="34" y="164" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="38" font-weight="800">进入可发布状态</text>
+
+      <rect x="34" y="204" width="370" height="74" rx="24" fill="#EFF6FF" stroke="#BFDBFE"/>
+      <circle cx="70" cy="241" r="14" fill="#2563EB"/>
+      <text x="100" y="248" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" font-weight="700">先答读者最关心的问题</text>
+
+      <rect x="34" y="296" width="370" height="74" rx="24" fill="#FFFBEB" stroke="#FDE68A"/>
+      <circle cx="70" cy="333" r="14" fill="#F59E0B"/>
+      <text x="100" y="340" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" font-weight="700">通过评测后再进入收尾</text>
+
+      <rect x="34" y="388" width="370" height="74" rx="24" fill="#ECFDF5" stroke="#A7F3D0"/>
+      <circle cx="70" cy="425" r="14" fill="#10B981"/>
+      <text x="100" y="432" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="22" font-weight="700">只在边界清晰时自动推进</text>
+    </g>
+  </g>
+
+  <g transform="translate(96 648)">
+    <path d="M118 16H388" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <path d="M374 8L392 16L374 24" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M374 16H644" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <path d="M630 8L648 16L630 24" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M630 16H900" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <path d="M886 8L904 16L886 24" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M886 16H1156" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <path d="M1142 8L1160 16L1142 24" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g filter="url(#soft)">
+      <rect x="0" y="0" width="220" height="176" rx="30" fill="#FFFFFF" fill-opacity="0.75" stroke="#DCE6F2"/>
+      <rect x="0" y="0" width="220" height="9" rx="4.5" fill="#2563EB"/>
+      <text x="26" y="48" fill="#2563EB" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="18" font-weight="800" letter-spacing="0.14em">01</text>
+      <text x="26" y="94" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="36" font-weight="800">调查</text>
+      <text x="26" y="130" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">看清仓库状态</text>
+      <text x="26" y="158" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">与任务层级</text>
+    </g>
+
+    <g filter="url(#soft)" transform="translate(236 0)">
+      <rect x="0" y="0" width="220" height="176" rx="30" fill="#FFFFFF" fill-opacity="0.75" stroke="#DCE6F2"/>
+      <rect x="0" y="0" width="220" height="9" rx="4.5" fill="#0F172A"/>
+      <text x="26" y="48" fill="#0F172A" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="18" font-weight="800" letter-spacing="0.14em">02</text>
+      <text x="26" y="94" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="36" font-weight="800">定位</text>
+      <text x="26" y="130" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">判断层级、类型</text>
+      <text x="26" y="158" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">和执行模式</text>
+    </g>
+
+    <g filter="url(#soft)" transform="translate(472 0)">
+      <rect x="0" y="0" width="220" height="176" rx="30" fill="#FFFFFF" fill-opacity="0.75" stroke="#DCE6F2"/>
+      <rect x="0" y="0" width="220" height="9" rx="4.5" fill="#F59E0B"/>
+      <text x="26" y="48" fill="#B45309" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="18" font-weight="800" letter-spacing="0.14em">03</text>
+      <text x="26" y="94" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="36" font-weight="800">生成</text>
+      <text x="26" y="130" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">重构 README</text>
+      <text x="26" y="158" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">并补视觉锚点</text>
+    </g>
+
+    <g filter="url(#soft)" transform="translate(708 0)">
+      <rect x="0" y="0" width="220" height="176" rx="30" fill="#FFFFFF" fill-opacity="0.75" stroke="#DCE6F2"/>
+      <rect x="0" y="0" width="220" height="9" rx="4.5" fill="#10B981"/>
+      <text x="26" y="48" fill="#047857" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="18" font-weight="800" letter-spacing="0.14em">04</text>
+      <text x="26" y="94" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="36" font-weight="800">评测</text>
+      <text x="26" y="130" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">绿色才继续</text>
+      <text x="26" y="158" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">黄色先修再评</text>
+    </g>
+
+    <g filter="url(#soft)" transform="translate(944 0)">
+      <rect x="0" y="0" width="220" height="176" rx="30" fill="#FFFFFF" fill-opacity="0.75" stroke="#DCE6F2"/>
+      <rect x="0" y="0" width="220" height="9" rx="4.5" fill="#E11D48"/>
+      <text x="26" y="48" fill="#9F1239" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="18" font-weight="800" letter-spacing="0.14em">05</text>
+      <text x="26" y="94" fill="#0F172A" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="36" font-weight="800">收尾</text>
+      <text x="26" y="130" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">进入视觉、License</text>
+      <text x="26" y="158" fill="#334155" font-family="'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="21" font-weight="600">和 Git 边界检查</text>
+    </g>
+  </g>
+</svg>

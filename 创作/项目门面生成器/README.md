@@ -408,4 +408,7 @@ README 不是终点，门面收尾才算完成
 
 - [README框架总纲](</E:/桌面/skills测试台/Skills-Walker/创作/项目门面生成器/README框架总纲.md>)
 - [交接字段协议](</E:/桌面/skills测试台/Skills-Walker/创作/项目门面生成器/交接字段协议.md>)
+- [各产物评测标准](</E:/桌面/skills测试台/Skills-Walker/创作/项目门面生成器/各产物评测标准.md>)
+- [发布包定义](</E:/桌面/skills测试台/Skills-Walker/创作/项目门面生成器/发布包定义.md>)
+- [平台扩展框架](</E:/桌面/skills测试台/Skills-Walker/创作/项目门面生成器/平台扩展框架.md>)
 - [Ferry](https://github.com/AdgaiWalker/Ferry)

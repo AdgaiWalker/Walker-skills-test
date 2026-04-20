@@ -29,7 +29,7 @@
 ### 方式 1：命令安装
 
 ```bash
-npx skills add AdgaiWalker/desk --skill design
+npx skills add AdgaiWalker/Walker-skills-test --skill design
 ```
 
 ### 方式 2：让 AI 帮你安装
@@ -38,14 +38,14 @@ npx skills add AdgaiWalker/desk --skill design
 
 ```text
 帮我安装这个 skill：
-https://github.com/AdgaiWalker/desk
+https://github.com/AdgaiWalker/Walker-skills-test
 
 skill 名称：design
-路径：skills测试台/design/
+路径：desigh/
 
 请帮我用合适的方式完成安装。
 如果支持命令安装，优先使用：
-npx skills add AdgaiWalker/desk --skill design
+npx skills add AdgaiWalker/Walker-skills-test --skill design
 
 安装完成后，告诉我最短怎么调用它。
 ```

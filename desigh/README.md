@@ -26,29 +26,31 @@
 
 ## 安装
 
-### 方式 1：命令安装
-
-```bash
-npx skills add AdgaiWalker/Walker-skills-test --skill design
-```
-
-### 方式 2：让 AI 帮你安装
+这个 skill 包含 SKILL.md 定义文件 + 7 个启动组件模板，必须作为整体安装，缺一不可。
 
 把这段话直接贴给 Claude Code：
 
 ```text
-帮我安装这个 skill：
+帮我完整安装 design skill：
 https://github.com/AdgaiWalker/Walker-skills-test
 
-skill 名称：design
-路径：desigh/
+需要从仓库的 desigh/ 目录一次性下载以下所有文件到本地：
 
-请帮我用合适的方式完成安装。
-如果支持命令安装，优先使用：
-npx skills add AdgaiWalker/Walker-skills-test --skill design
+1. skills/design/SKILL.md（skill 定义）
+2. skills/design/assets/ 下的全部 7 个启动组件模板：
+   - deck_stage.js
+   - design_canvas.jsx
+   - ios_frame.jsx
+   - android_frame.jsx
+   - macos_window.jsx
+   - browser_window.jsx
+   - animations.jsx
 
+请保持 assets/ 目录结构完整，不要只下载 SKILL.md。
 安装完成后，告诉我最短怎么调用它。
 ```
+
+> **为什么不能用 `npx skills add`？** 命令安装只能下载单个 SKILL.md 文件，但这个 skill 依赖 assets/ 目录下的 7 个模板文件才能正常工作。必须用 AI 安装方式拉取完整目录。
 
 ## 使用方法
 

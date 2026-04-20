@@ -96,7 +96,7 @@
 ### 方式 0：命令安装
 
 ```bash
-npx skills add AdgaiWalker/creator-publish-workflow --skill qiuzhi-x-post-generator
+npx skills add AdgaiWalker/Walker-skills-test --skill qiuzhi-x-post-generator
 ```
 
 ### 方式 1：直接把 skill 交给 AI
@@ -241,7 +241,7 @@ README
 
 ```text
 GitHub：
-https://github.com/AdgaiWalker/creator-publish-workflow/tree/main/%E9%A1%B9%E7%9B%AE%E9%97%A8%E9%9D%A2%E7%94%9F%E6%88%90%E5%99%A8
+https://github.com/AdgaiWalker/Walker-skills-test/tree/main/%E9%A1%B9%E7%9B%AE%E9%97%A8%E9%9D%A2%E7%94%9F%E6%88%90%E5%99%A8
 ```
 
 ## 设计原则

@@ -51,20 +51,20 @@
 ### 方式 1：命令安装
 
 ```bash
-npx skills add AdgaiWalker/Skills-Walker --skill project-front-generator
+npx skills add AdgaiWalker/Walker-skills-test --skill project-front-generator
 ```
 
 ### 方式 2：让 AI 帮你安装
 
 ```text
 帮我安装这个 skill：
-https://github.com/AdgaiWalker/Skills-Walker
+https://github.com/AdgaiWalker/Walker-skills-test
 
 skill 名称：project-front-generator
 
 请帮我用合适的方式完成安装。
 如果支持命令安装，优先使用：
-npx skills add AdgaiWalker/Skills-Walker --skill project-front-generator
+npx skills add AdgaiWalker/Walker-skills-test --skill project-front-generator
 
 安装完成后，告诉我最短怎么调用它。
 ```
